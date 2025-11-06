@@ -39,10 +39,21 @@
                     <legend>Perfil</legend>
                     
                     <p>Gênero:</p>
-                    <input type="radio" name="userGender" value="feminino">
+                    <input type="radio" name="userGender" value="feminino" checked="true">
                         <label for="userGender">Feminino</label>
                     <input type="radio" name="userGender" value="masculino">
                         <label for="userGender">Masculino</label>
+                    <br>
+                    <label for="maritalStatus">Estado Civil</label>
+                    <select name="maritalStatus">
+                        <option value="notInformed">selecione...</option>
+                        <option value="single">Solteira (o)</option>
+                        <option value="married">Casada (o)</option>
+                        <option value="widow">Viúva (o)</option>
+                        <option value="divorced">Divorciada (o)</option>
+                        <option value="stableJoin">União Estável</option>
+                    </select>
+                    <br>
 
                 </fieldset>
 
