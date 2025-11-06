@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-widthm initial-scale=1.0">
+        <title>Pesquisa Culturama</title>
+    </head>
+    <body>
+        <header>
+            <h1>Pesquisa Online</h1>
+        </header>
+        <section>
+            <form action="" method="get">
+                <fieldset>
+                    <!-- DADOS PESSOAIS -->
+                    <legend>Dados Pessoais</legend>
+                    <label for="userName">Nome</label>
+                    <input type="text" name="userName" placeholder="digite seu nome" required>
+                    <br>
+                    <label for="userAge">Idade</label>
+                    <input type="number" min="12" max="100" name="userAge">
+                    <br>
+                    <label for="userBirthdate">Data de nascimento</label>
+                    <input type="date" name="userBirthdate">
+                    <br>
+                    <label for="userEmail">Email</label>
+                    <input type="email" name="userEmail" placeholder="digite seu email" required>
+                    <br>
+                    <label for="userPhoneNumber">Telefone</label>
+                    <input type="tel" name="userPhoneNumber" pattern="[0-9]{11}" maxlength="11" placeholder="digite seu telefone">
+                    <br>
+                    <label for="userImage">Upload de foto</label>
+                    <input type="file" accept="image/*" name="userImage">
+                </fieldset>
+                
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </body>
+</html>
