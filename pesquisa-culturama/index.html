@@ -14,6 +14,7 @@
                 <fieldset>
                     <!-- DADOS PESSOAIS -->
                     <legend>Dados Pessoais</legend>
+                    
                     <label for="userName">Nome</label>
                     <input type="text" name="userName" placeholder="digite seu nome" required>
                     <br>
@@ -33,6 +34,18 @@
                     <input type="file" accept="image/*" name="userImage">
                 </fieldset>
                 
+                <fieldset>
+                    <!-- PERFIL -->
+                    <legend>Perfil</legend>
+                    
+                    <p>Gênero:</p>
+                    <input type="radio" name="userGender" value="feminino">
+                        <label for="userGender">Feminino</label>
+                    <input type="radio" name="userGender" value="masculino">
+                        <label for="userGender">Masculino</label>
+
+                </fieldset>
+
                 <br>
                 <button type="submit">Enviar</button>
             </form>
